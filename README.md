@@ -6,8 +6,8 @@
 ##  Project Description
 This project simulates equity price paths using **Geometric Brownian Motion (GBM)** and evaluates portfolio tail risk using:
 
-- **Value at Risk (VaR)**
-- **Expected Shortfall (ES)**
+- **Value at Risk **
+- **Expected Shortfall **
 - **Skewness & Kurtosis** to identify fat-tail risk behavior
 
 It includes an interactive **Streamlit dashboard** for exploring stochastic price paths and risk metrics.
@@ -17,7 +17,7 @@ It includes an interactive **Streamlit dashboard** for exploring stochastic pric
 ##  Model Assumptions
 | Component | Method Used |
 |---|---|
-| Model | Geometric Brownian Motion (GBM) |
+| Model | Geometric Brownian Motion |
 | Market shocks | Standard Normal random shocks (Wiener increments) |
 | Time steps | 252 trading days per year |
 | Volatility | Constant σ per simulation run |
@@ -38,23 +38,24 @@ The engine computes:
 
 ---
 
-## 🖼️ Screenshots *(add later)*
+##  Screenshots
 ![Market Risk Dashboard](screenshotsdashboard.png)
 
 ---
-
-## ⚙️ How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-link-here>
+git clone https://github.com/Mandisalovet/MarketRiskSimulator.git
 cd MarketRiskSimulator
+
 ```
 
 ### 2. Install dependencies
 ```bash
+conda create -n astro_env python=3.9
 conda activate astro_env
-pip install -r requirements.txt
+pip install numpy pandas matplotlib scipy streamlit
 ```
 
 ### 3. Run the dashboard
@@ -83,7 +84,7 @@ Planned features to increase model realism and scale:
 ## 🏽 Author
 **Mandisa Tshabalala**  
 BSc Astronomy & Astrophysics  (Wits2025) → Astronomy Honours 2026  
-Aspiring **Quantitative Analyst / Data Scientist**  
-Passionate about **physics-driven finance, computational risk modelling, and data systems**.
+Aspiring Quantitative Analyst / Data Scientist  
+Passionate about physics-driven finance, computational risk modelling, and data systems.
 
  *“Exploring risk through physics, code, and data.”*
