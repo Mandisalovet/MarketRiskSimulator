@@ -6,8 +6,8 @@
 ##  Project Description
 This project simulates equity price paths using **Geometric Brownian Motion (GBM)** and evaluates portfolio tail risk using:
 
-- **Value at Risk **
-- **Expected Shortfall **
+- **Value at Risk**
+- **Expected Shortfall**
 - **Skewness & Kurtosis** to identify fat-tail risk behavior
 
 It includes an interactive **Streamlit dashboard** for exploring stochastic price paths and risk metrics.
@@ -81,7 +81,7 @@ Planned features to increase model realism and scale:
 
 ---
 
-## 🏽 Author
+##  Author
 **Mandisa Tshabalala**  
 BSc Astronomy & Astrophysics  (Wits2025) → Astronomy Honours 2026  
 Aspiring Quantitative Analyst / Data Scientist  
