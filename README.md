@@ -91,7 +91,10 @@ Planned features to increase model realism and scale:
 - GPU-accelerated simulation
 
 ---
-
+### Live Demo
+Try the Monte-Carlo Market Risk Simulator live here:  
+[https://marketrisksimulator-mandilovet.streamlit.app/](https://marketrisksimulator-mandilovet.streamlit.app/)
+---
 ##  Author
 **Mandisa Tshabalala**  
 BSc Astronomy & Astrophysics  (Wits2025) → Astronomy Honours 2026  
