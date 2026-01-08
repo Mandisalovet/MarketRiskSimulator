@@ -25,12 +25,23 @@ It includes an interactive **Streamlit dashboard** for exploring stochastic pric
 
 ---
 
+## Features
+
+- Interactive sliders for:
+  - Initial price, expected return, volatility
+  - Time horizon in years
+  - Number of simulations
+  - Confidence level for VaR/ES
+- Real-time Monte-Carlo simulation
+- Line chart of simulated price paths
+---
+
 ##  Output Metrics
 The engine computes:
 
 - VaR at selected confidence level (e.g., 95%)
-- Expected Shortfall beyond VaR threshold
-- Summary statistics:
+- ES beyond VaR threshold
+- Summary statistics of simulated returns:
   - Mean return
   - Standard deviation
   - **Skewness** (asymmetry of return distribution)
