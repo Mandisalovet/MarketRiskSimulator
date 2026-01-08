@@ -49,7 +49,7 @@ The engine computes:
 
 ---
 
-##  Screenshots
+##  Screenshot
 ![Market Risk Dashboard](screenshotsdashboard.png)
 
 ---
