@@ -97,7 +97,7 @@ Try the Monte-Carlo Market Risk Simulator live here:
 ---
 ##  Author
 **Mandisa Tshabalala**  
-BSc Astronomy & Astrophysics  (Wits2025) → Astronomy Honours 2026  
+BSc Astronomy & Astrophysics  (Wits2025) → Physics Honours (Wits2026)  
 Aspiring Quantitative Analyst / Data Scientist  
 Passionate about physics-driven finance, computational risk modelling, and data systems.
 
